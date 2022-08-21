@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A4F1936328B2461500678C69 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4F1936228B2461500678C69 /* main.cpp */; };
+		A4FBD5F628B2A792004BCFC3 /* BlackAndScholes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4FBD5F528B2A791004BCFC3 /* BlackAndScholes.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A4F1935F28B2461500678C69 /* Options pricing cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Options pricing cpp"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F1936228B2461500678C69 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A4FBD5F528B2A791004BCFC3 /* BlackAndScholes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BlackAndScholes.cpp; sourceTree = "<group>"; };
+		A4FBD5F828B2D7EE004BCFC3 /* BlackAndScholes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlackAndScholes.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A4F1936228B2461500678C69 /* main.cpp */,
+				A4FBD5F828B2D7EE004BCFC3 /* BlackAndScholes.h */,
+				A4FBD5F528B2A791004BCFC3 /* BlackAndScholes.cpp */,
 			);
 			path = "Options pricing cpp";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4F1936328B2461500678C69 /* main.cpp in Sources */,
+				A4FBD5F628B2A792004BCFC3 /* BlackAndScholes.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

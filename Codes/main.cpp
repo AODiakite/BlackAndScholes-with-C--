@@ -6,9 +6,12 @@
 //
 
 #include <iostream>
+#include "BlackAndScholes.h"
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    BlackAndScholes produit;
+    produit.read();
+    produit.print();
     return 0;
 }
