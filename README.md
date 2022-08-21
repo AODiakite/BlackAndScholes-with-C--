@@ -2,19 +2,7 @@
 title: "Black-Scholes Model with C++"
 author: "ABDOUL OUDOUSS DIAKITE"
 date: "21 August,2022"
-output:
-  html_document: 
-    toc: yes
-    fig_caption: yes
-    keep_md: yes
-    fig_width: 10
-    fig_height: 10
-  word_document: 
-    toc: yes
-  pdf_document: 
-    toc: yes
-    latex_engine: lualatex
-always_allow_html: true
+
 ---
 
 ## R Markdown
